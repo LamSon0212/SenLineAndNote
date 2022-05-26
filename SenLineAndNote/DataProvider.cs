@@ -22,8 +22,8 @@ namespace SenLineAndNote
         {
         }
 
-        //  private string connectionSTR = @"Data Source=10.198.138.103;Initial Catalog=QuanLiVanKien_LamSon;Persist Security Info=True;User ID=LAMSON;Password=q123456;";
-       private string connectionSTR = @"Data Source=10.199.232.100;Initial Catalog=QuanLiVanKien_LamSon;Persist Security Info=True;User ID=LAMSON;Password=q123456;";
+          //   private string connectionSTR = @"Data Source=DESKTOP-G2BBSRT\SQLEXPRESS;Initial Catalog=QuanLiVanKien_LamSon;Persist Security Info=True;User ID=LAMSON;Password=q123456;";
+    private string connectionSTR = @"Data Source=10.199.232.100;Initial Catalog=QuanLiVanKien_LamSon;Persist Security Info=True;User ID=LAMSON;Password=q123456;";
 
         public DataTable ExecuteQuery(string query, object[] parameter = null)
         {
