@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Runtime.InteropServices;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -31,6 +32,8 @@ namespace SenLineAndNote
         {
             this.filePath = filePath;
         }
+
+     
 
         public void Write(string section, string key, string value)
         {
